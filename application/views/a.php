@@ -20,8 +20,10 @@
     <br>
     <br>
     <div class="container">
-        <center><h3>ขบวนรถไฟ</h3></center>
+        <center><h3>ขบวนรถไฟ</h3></center> 
+        <a href=<?php echo site_url('Welcome/reg_menu1'); ?>>เพิ่มขบวนรถไฟ</a>
         <br>
+    
         <div class="col-md-5">
             
         </div>
@@ -51,7 +53,9 @@
         <th scope="row"><?php echo $show['note']?></th>
                 </tr>
             </tbody>
+           
                   <?php } ?>
+                   
     </div>
 
     </div>

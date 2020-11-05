@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div id="container"  align="center">
      <form action="<?php echo site_url('Welcome/reg_menu'); ?>" enctype="multipart/form-data" method="POST">
    
-	<h1>เพิ่มขบวนรถ</h1>
+	<h1>เพิ่มขบวนรถไฟ</h1>
 
 	<div id="body"  align="center">
 		

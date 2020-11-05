@@ -12,7 +12,7 @@ function __construct(){
 	{
 		$result['shows'] = $this->models->getAlltrain();
 		$this->load->view('a',$result);
-		
+
 
 	}
 	public function reg_menu(){
@@ -33,6 +33,8 @@ function __construct(){
 			$this->load->view('b');
 			
 	}
-
+public function reg_menu1(){
+	$this->load->view('b');
+}
 
 }
